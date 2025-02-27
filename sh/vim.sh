@@ -1,7 +1,7 @@
 #! /bin/bash
 
-sudo apt-get remove vim
-sudo apt autoremove
-sudo add-apt-repository ppa:jonathonf/vim
-sudo apt-get update
-sudo apt-get install vim-gtk3
+sudo apt-get remove -y vim
+sudo apt autoremove -y
+sudo add-apt-repository ppa:jonathonf/vim -y
+sudo apt-get update -y
+sudo apt-get install -y vim-gtk3
